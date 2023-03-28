@@ -1,0 +1,7 @@
+#scene {
+  overflow: hidden;
+  height: 100vh;
+  margin: auto;
+  padding-top: 80px;
+  box-sizing: border-box;
+}

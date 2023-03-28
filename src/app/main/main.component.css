@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:ital,wght@0,400;1,200&family=Roboto+Mono:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+#PortfolioText {
+  font-size: 4.5rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 10px 15px rgba(2, 11, 22, 0.2);
+  color: #ff4d5a;
+  font-family: "Secular One", sans-serif !important;
+  transform: translate(45%, 100%);
+  margin-top: 250px;
+  padding-bottom: 25px;
+  position: relative;
+}
+#name {
+  font-family: "Kanit", sans-serif !important;
+  margin-bottom: 40px;
+}
+
+#nameText {
+  font-size: 5rem;
+  letter-spacing: 10px;
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+  color: #fff;
+  transform: translate(20%, -20%);
+  margin-top: 250px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 3;
+  line-height: 6rem;
+}
+
+#line {
+  border-bottom: 4px solid #ff4d5a;
+  border-radius: 3px;
+  width: 100px;
+  display: block;
+}
+
+#line2 {
+  border-bottom: 4px solid #ff4d5a;
+  border-radius: 3px;
+  width: 100px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 54px;
+}
+
+#occupationText {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  /* transform: translate(20%, -40%); */
+  position: relative;
+  z-index: 3;
+  line-height: 2.5rem;
+}
+
+#mainDiv {
+  position: relative;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+#moon-highlight {
+  transform: translate(-5%, -20%);
+}
+#moon {
+  position: absolute;
+  transform: translate(52%, 18%);
+  animation: fade-in-right-moon 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+#cloud1 {
+  position: absolute;
+  transform: translate(1%, 20%);
+  z-index: -1;
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+}
+
+#cloud2 {
+  position: absolute;
+  transform: translate(120%, 10%);
+  z-index: -1;
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+}
+
+#cloud3 {
+  position: absolute;
+  z-index: 5;
+  transform: translate(28%, -10%);
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+}
+
+#cloud4 {
+  position: absolute;
+  z-index: 5;
+  transform: translate(23%, 15%);
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+}
+
+#cloud5 {
+  position: absolute;
+  z-index: 5;
+  transform: translate(1%, 18%);
+  text-shadow: 2px 4px 4px rgba(2, 11, 22, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  #nameText {
+    font-size: 1.5rem;
+    transform: translate(80%, 100%);
+    max-width: 50px;
+    line-height: 2.5rem;
+  }
+  #moon-highlight {
+    width: 550px;
+    height: 550px;
+    transform: translate(-11%, -100%);
+  }
+  #moon {
+    width: 250px;
+    height: 250px;
+    transform: translate(36%, -160%);
+  }
+  #occupationText {
+    font-size: 0.9rem;
+    transform: translate(10%, 400%);
+  }
+  #PortfolioText {
+    font-size: 1.8rem;
+    transform: translate(30%, -810%);
+  }
+
+  #cloud1 {
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    transform: translate(5%, -295%);
+  }
+
+  #cloud2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: translate(130%, -230%);
+  }
+
+  #cloud3 {
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    transform: translate(-7%, -75%);
+  }
+
+  #cloud4 {
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    transform: translate(10%, -65%);
+  }
+
+  #cloud5 {
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    transform: translate(20%, -80%);
+  }
+}
+
+/* ----------------------------------------------
+ keyframes
+ */
+@keyframes fade-in-right-moon {
+  0% {
+    -webkit-transform: translateX(100px) translateY(18%);
+    transform: translateX(100px) translateY(18%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

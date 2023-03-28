@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:ital,wght@0,400;1,200&family=Roboto+Mono:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+/* @import "~animate.css/animate.min"; */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgb(5, 16, 28) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(5, 16, 28, 1) 10%,
+    rgba(6, 18, 32, 1) 24%,
+    rgba(7, 22, 39, 1) 38%,
+    rgba(6, 27, 51, 1) 52%,
+    rgba(6, 28, 56, 1) 68%,
+    rgba(7, 33, 65, 1) 85%
+  ) !important;
+}

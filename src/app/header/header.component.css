@@ -1,0 +1,74 @@
+#navbarId {
+    padding: 25px 0;
+    background-color: transparents;
+}
+
+.custom-toggler.navbar-toggler {
+    border: transparent solid 0;
+    color: #fff ;
+    margin-right: 40px;
+    transition: opacity 0.2s ease-out 100ms;
+}
+
+.custom-toggler.navbar-toggler:hover {
+    opacity: 0.6;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#offcanvasNavbar{
+    height: 100vw;
+    background-color: transparents !important;
+    
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    color: #fff;
+    transition: opacity 0.2s ease-out 100ms;
+}   
+
+.navbar-brand:hover {
+    opacity: 0.6;
+}
+
+.btn-close{
+    margin-right: 45px;
+    margin-top: 20px;
+}
+
+#socials{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#socials-icons {
+    margin-right: 20px;
+    transition: opacity 0.2s ease-out 100ms;
+    cursor: pointer;
+}
+
+#socials-icons:hover {
+    opacity: 0.6;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .custom-toggler.navbar-toggler{
+        margin-right: 20px;
+    }
+}
